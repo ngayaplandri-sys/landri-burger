@@ -1,0 +1,12 @@
+{
+  "fps": 20,
+  "width": 1280,
+  "smallWidth": 800,
+  "quality": 74,
+  "segments": [
+    { "file": "clip-A.mp4" },
+    { "file": "clip-B.mp4", "join": "concat" },
+    { "file": "clip-C.mp4", "trimStart": 1.25, "join": "flash", "duration": 0.4 }
+  ],
+  "notes": "clip-C : coupe du modèle à 0,5 s (saut de la cour vers un autre seuil). Réparation : début de C à 1,25 s + éclat de lumière de 0,4 s au passage de la porte arrière."
+}

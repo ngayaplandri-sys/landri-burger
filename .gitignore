@@ -1,0 +1,11 @@
+# Dépendances (réinstallables avec npm install)
+node_modules/
+
+# Film maître : recréé à partir des 3 segments avec `npm run frames`
+production/video/flythrough-master.mp4
+production/video/_norm/
+
+# Réglages locaux
+.claude/
+.DS_Store
+Thumbs.db
