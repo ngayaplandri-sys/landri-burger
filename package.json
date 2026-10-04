@@ -1,14 +1,14 @@
 {
-  "name": "landri-burger-site",
+  "name": "landri-african-fine-dining",
   "version": "1.0.0",
   "private": true,
-  "description": "Site cinématographique de Landri Burger (Yaoundé) : visite en vol continu pilotée par le défilement.",
+  "description": "Site cinématographique de LANDRI, African Fine Dining (Yaoundé) : visite immersive pilotée par le défilement, bilingue FR/EN.",
   "type": "module",
   "scripts": {
     "serve": "node scripts/serve.mjs",
     "images": "node scripts/build-images.mjs",
     "frames": "node scripts/build-frames.mjs",
-    "check": "node scripts/check.mjs"
+    "generate": "node scripts/hf-batch.mjs"
   },
   "devDependencies": {
     "ffmpeg-static": "^5.3.0",

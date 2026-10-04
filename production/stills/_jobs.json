@@ -1,0 +1,29 @@
+{
+  "start-1": {
+    "job": "73ec571e-a0d1-48b5-9b93-122e04bbd777"
+  },
+  "ch-salle": {
+    "job": "4fcf63d2-0ffa-4031-8d29-5e191a1b9441"
+  },
+  "start-2": {
+    "job": "cd038a72-e786-4c1f-a6ec-1e2288a6e795"
+  },
+  "start-3": {
+    "job": "f3eac505-593d-42a0-be66-deb536d27263"
+  },
+  "ch-cuisine": {
+    "job": "a5fdf442-afb3-48a5-a4a1-fa9b8ef9474a"
+  },
+  "ch-ingredients": {
+    "job": "78c93269-7643-41f2-8703-8c45dd05d2be"
+  },
+  "ch-dressage": {
+    "job": "2d6273e3-defa-41e8-91e0-b1e712c72beb"
+  },
+  "ch-plat": {
+    "job": "69779f27-eacb-4bce-bc73-8ef62cc227d4"
+  },
+  "ch-ambiance": {
+    "job": "84da883c-4363-47e4-8a0d-4582f1f582df"
+  }
+}

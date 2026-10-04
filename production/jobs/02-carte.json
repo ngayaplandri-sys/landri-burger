@@ -1,0 +1,185 @@
+{
+  "outDir": "production/menu",
+  "model": "soul_cinematic",
+  "args": {
+    "--quality": "2k"
+  },
+  "concurrency": 5,
+  "items": [
+    {
+      "name": "accras-crevettes",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Light golden prawn accras (fritters) stacked neatly, a small bowl of pepper-flecked mayonnaise, lime wedge, chopped spring onion and mild red chilli."
+    },
+    {
+      "name": "pastels",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Four crisp golden half-moon pastels (fried pastries) filled with spiced tuna, one cut open showing the filling, with a small bowl of red tomato-chilli sauce."
+    },
+    {
+      "name": "samoussas",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Three crisp triangular African samosas filled with suya-spiced beef and peas, with a glossy mango chutney and coriander leaves."
+    },
+    {
+      "name": "salade-avocat-crevettes",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Elegant salad of sliced ripe avocado fanned out, poached prawns, citrus segments, a few drops of red palm oil and fresh herbs."
+    },
+    {
+      "name": "brochettes-crevettes",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Two skewers of large charcoal-grilled prawns glazed with pebe spice butter, a charred half lime, smoky grill marks."
+    },
+    {
+      "name": "beignets-plantain",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Golden fluffy ripe plantain fritters dusted with spice, with a small bowl of spicy pepper dip."
+    },
+    {
+      "name": "ndole-crevettes",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Signature dish: a neat dome of dark green ndole (bitter leaf and peanut stew) in a deep charcoal stoneware bowl, three glazed grilled prawns, thin crisp plantain chips standing upright, drops of red chilli oil, micro herbs, subtle steam."
+    },
+    {
+      "name": "poulet-dg",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Modern poulet DG: golden roasted chicken pieces glazed in tomato-pepper sauce with caramelised ripe plantain, carrots, green beans and bell peppers, arranged elegantly."
+    },
+    {
+      "name": "poulet-braise",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Charcoal-braised chicken marinated in ginger and garlic, beautifully charred, with roasted plantain and a small pot of fiery green and red pepper sauce."
+    },
+    {
+      "name": "poisson-braise",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Whole charcoal-braised fish (sea bass) scored and spiced with njansang, on a long sand-coloured plate, with tomato-onion-chilli relish and grilled cassava sticks."
+    },
+    {
+      "name": "mafe",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Refined mafe: tender beef confit in a glossy rich peanut sauce, roasted sweet potato, a quenelle of fragrant rice, herbs."
+    },
+    {
+      "name": "poulet-yassa",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Elegant chicken yassa: golden chicken leg on a bed of soft caramelised onions with lemon and mustard, green olives, a neat mound of white rice."
+    },
+    {
+      "name": "thieboudienne",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Refined thieboudienne: a fillet of thiof grouper on red tomato broken rice, carefully arranged cassava, cabbage, aubergine and carrot, a little green rof herb paste."
+    },
+    {
+      "name": "jollof-rice",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Gastronomic jollof rice: smoky red tomato-pepper rice moulded neatly, grilled chicken thigh, golden plantain slices, fresh herbs."
+    },
+    {
+      "name": "sauce-arachide",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Smoked chicken in a velvety peanut sauce in a deep stoneware bowl, with okra and fresh chilli, steam rising."
+    },
+    {
+      "name": "cote-de-boeuf",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Sliced charcoal-grilled cote de boeuf with a dark suya and pebe spice crust, pink centre, a small jug of reduced jus with Penja white pepper, grilled spring onions."
+    },
+    {
+      "name": "plantain-roti",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Side dish: halved ripe plantain roasted until caramelised, sprinkled with flaky salt and chilli, in a small stoneware dish."
+    },
+    {
+      "name": "igname",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Side dish: silky yam puree with brown butter and chives in a small stoneware bowl."
+    },
+    {
+      "name": "manioc",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Side dish: grilled cassava sticks with light char marks, coarse salt, in a small dish."
+    },
+    {
+      "name": "attieke",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Side dish: fluffy attieke (fermented cassava couscous) with diced tomato, red onion and chilli, in a small bowl."
+    },
+    {
+      "name": "riz-parfume",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Side dish: fragrant jasmine rice with ginger and herbs in a small stoneware bowl, steam."
+    },
+    {
+      "name": "patate-douce",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Side dish: roasted sweet potato wedges glazed with honey and chilli."
+    },
+    {
+      "name": "legumes-sautes",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Side dish: bright sauteed market vegetables (green beans, peppers, carrots, leafy greens) with garlic and ginger."
+    },
+    {
+      "name": "dessert-bissap",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Dessert: deep ruby bissap (hibiscus) jelly, light vanilla cream, crisp meringue shards, a few dried hibiscus petals, in a glass coupe."
+    },
+    {
+      "name": "mousse-chocolat-epices",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Dessert: dark chocolate mousse quenelle with African spices, cocoa nibs, a dusting of Penja white pepper, on a sand stoneware plate."
+    },
+    {
+      "name": "mangue-fraiche",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Dessert: fresh ripe mango sliced into a fan, lime zest, a whisper of mild chilli, coconut sorbet."
+    },
+    {
+      "name": "ananas-roti",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Dessert: caramelised roasted pineapple with fresh ginger, a scoop of vanilla ice cream, spiced caramel."
+    },
+    {
+      "name": "creme-coco",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Dessert: coconut cream panna cotta topped with passion fruit pulp and toasted coconut."
+    },
+    {
+      "name": "plantain-caramelise",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Dessert: caramelised ripe plantain slices with roasted peanut ice cream and a peanut praline crumble."
+    },
+    {
+      "name": "boisson-bissap",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Drink: tall glass of deep ruby iced bissap (hibiscus) with fresh mint and ice, condensation drops."
+    },
+    {
+      "name": "boisson-gingembre",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Drink: glass of cloudy pale-gold fresh ginger juice with lemon slice and ice, fresh ginger root beside it."
+    },
+    {
+      "name": "boisson-baobab",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Drink: creamy pale baobab (bouye) drink in a short glass, vanilla, a cracked baobab fruit beside it."
+    },
+    {
+      "name": "boisson-tamarin",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Drink: amber-brown tamarind juice over ice in a glass, tamarind pods beside it."
+    },
+    {
+      "name": "cocktail-sans-alcool",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Drink: elegant alcohol-free cocktail of bissap, ginger and lime topped with sparkling water in a stemmed coupe, a hibiscus flower garnish."
+    },
+    {
+      "name": "jus-tropical",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography for LANDRI, a contemporary African restaurant in Yaounde. Plated with restraint and generous negative space on matte handmade stoneware (charcoal or warm sand), on a dark walnut table with ivory linen and bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures, softly blurred warm restaurant background with glowing raffia lamps. No text, no logos, no hands unless described. Drink: bright orange tropical juice of mango, pineapple and passion fruit in a tall glass with ice, passion fruit half beside it."
+    }
+  ]
+}

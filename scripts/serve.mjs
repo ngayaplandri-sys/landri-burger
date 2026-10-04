@@ -25,4 +25,4 @@ http.createServer((req, res) => {
     res.writeHead(200, { "content-type": TYPES[ext] || "application/octet-stream", "cache-control": long ? "public, max-age=604800" : "no-cache" });
     res.end(buf);
   });
-}).listen(PORT, () => console.log(`Landri Burger: http://localhost:${PORT}`));
+}).listen(PORT, () => console.log(`LANDRI: http://localhost:${PORT}`));

@@ -1,0 +1,90 @@
+{
+  "outDir": "production/sections",
+  "model": "soul_cinematic",
+  "args": {
+    "--quality": "2k"
+  },
+  "concurrency": 5,
+  "items": [
+    {
+      "name": "samoussas",
+      "aspect": "3:4",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. Three crisp golden triangular samosas filled with spiced minced beef and green peas, a small bowl of glossy mango chutney, fresh coriander leaves."
+    },
+    {
+      "name": "chef-portrait",
+      "aspect": "3:4",
+      "prompt": "Editorial portrait of a confident Cameroonian executive chef in his forties, short beard, fitted charcoal chef jacket with bronze buttons and a dark leather apron, arms relaxed, standing at the stone pass of an open restaurant kitchen with bronze heat lamps and soft steam behind him, gentle proud smile, looking at the camera. Warm amber light, shallow depth of field, cinematic, photorealistic, natural skin tones. No text, no logos, unbranded clothing."
+    },
+    {
+      "name": "chef-geste",
+      "aspect": "4:3",
+      "prompt": "Close cinematic shot of a Cameroonian chef's hands in a charcoal jacket spooning a glossy dark green ndole sauce onto a charcoal stoneware plate at a stone pass, bronze heat lamp glow, steam. Warm amber light, shallow depth of field, cinematic, photorealistic, natural skin tones. No text, no logos, unbranded clothing."
+    },
+    {
+      "name": "origine-centrale",
+      "aspect": "4:3",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. Central African still life: a bowl of dark green ndole with prawns, white Penja pepper corns in a small bronze dish, njansang seeds, ripe plantain, smoked fish, on dark wood."
+    },
+    {
+      "name": "origine-ouest",
+      "aspect": "4:3",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. West African still life: a refined plate of thieboudienne with red rice and grouper, a small bowl of jollof rice, a bowl of peanut mafe, a glass of ruby bissap, on dark wood."
+    },
+    {
+      "name": "origine-est",
+      "aspect": "4:3",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. East African still life: a round of soft injera bread with small portions of doro wat and lentil stews, a bowl of fragrant Zanzibar pilau rice with cloves and cardamom, cinnamon sticks, on dark wood."
+    },
+    {
+      "name": "origine-nord",
+      "aspect": "4:3",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. North African still life: an earthenware tagine with preserved lemons and olives, a bowl of fine couscous, small bronze dishes of ras el hanout and harissa, dates, on dark wood."
+    },
+    {
+      "name": "origine-australe",
+      "aspect": "4:3",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. Southern African still life: a small dish of golden bobotie, a bowl of colourful chakalaka relish, flame-grilled peri-peri prawns, a bowl of maize pap, on dark wood."
+    },
+    {
+      "name": "experience-musique",
+      "aspect": "4:3",
+      "prompt": "A musician playing a kora softly in the corner of an elegant contemporary African fine-dining room in the evening, raffia pendant lamps glowing amber, carved wooden panels, guests at tables with ivory linen listening and dining in the soft background. Warm amber light, shallow depth of field, cinematic, photorealistic, natural skin tones. No text, no logos, unbranded clothing."
+    },
+    {
+      "name": "experience-decor",
+      "aspect": "4:3",
+      "prompt": "Interior detail of an elegant contemporary African restaurant: a hand-carved iroko wall panel with subtle geometric motifs, a woven raffia pendant lamp glowing, a deep green velvet chair, an indigo-and-ivory Ndop cushion, a round walnut table set with ivory linen, bronze cutlery and charcoal stoneware. Warm amber light, shallow depth of field, cinematic, photorealistic, natural skin tones. No text, no logos, unbranded clothing."
+    },
+    {
+      "name": "evenement-diner",
+      "aspect": "4:3",
+      "prompt": "A private chef's table dinner event in an elegant contemporary African restaurant: a long walnut table with ivory linen and candles, a group of elegant Cameroonian and international guests raising glasses of bissap and laughing, a chef in a charcoal jacket presenting a dish, raffia lamps glowing. Warm amber light, shallow depth of field, cinematic, photorealistic, natural skin tones. No text, no logos, unbranded clothing."
+    },
+    {
+      "name": "evenement-terrasse",
+      "aspect": "4:3",
+      "prompt": "Evening reception on the terracotta terrace of an elegant contemporary African restaurant surrounded by palms and banana leaves, low bronze lanterns, guests in elegant clothes talking with small plates and drinks, waiters in ivory jackets with trays, warm amber glow from the open carved wooden doors behind. Warm amber light, shallow depth of field, cinematic, photorealistic, natural skin tones. No text, no logos, unbranded clothing."
+    },
+    {
+      "name": "ch-ingredients",
+      "aspect": "16:9",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. Macro food commercial shot along a dark stone kitchen counter: ripe plantains, yams, cassava, sweet potatoes, red and yellow chillies, ginger roots, roasted peanuts, small bronze bowls of African spices, ripe tomatoes, fresh herbs, a whole fresh fish and large prawns on crushed ice, water droplets."
+    },
+    {
+      "name": "ch-dressage",
+      "aspect": "16:9",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. Extreme close-up of a chef's hands with fine tweezers placing a micro herb on three glazed grilled prawns resting on a small dome of dark green ndole in a deep charcoal stoneware bowl, thin crisp plantain chips standing upright, a spoon adding drops of red chilli oil, bronze heat lamp glow, a little steam."
+    },
+    {
+      "name": "ch-plat",
+      "aspect": "16:9",
+      "prompt": "Editorial fine-dining food photography, plated with restraint on matte handmade stoneware, dark walnut table, bronze cutlery, warm amber side light, shallow depth of field, rich realistic textures. No text, no logos. Hero shot of the finished signature dish centred: in a deep charcoal stoneware bowl a neat dome of dark green ndole (bitter leaf and peanut stew), three glazed grilled prawns, upright crisp plantain chips, drops of red chilli oil, micro herbs, subtle rising steam, ivory linen, softly blurred amber raffia lamps behind."
+    },
+    {
+      "name": "ch-service",
+      "aspect": "16:9",
+      "prompt": "In an elegant contemporary African restaurant, a waiter in an ivory mandarin-collar jacket sets a beautifully plated dish down in front of a smiling Cameroonian woman at a round walnut table with ivory linen; her two friends lean in, delighted. Raffia lamps, carved wooden panels behind. Warm amber light, shallow depth of field, cinematic, photorealistic, natural skin tones. No text, no logos, unbranded clothing."
+    }
+  ]
+}

@@ -4,9 +4,46 @@
   "smallWidth": 800,
   "quality": 74,
   "segments": [
-    { "file": "clip-A.mp4" },
-    { "file": "clip-B.mp4", "join": "concat" },
-    { "file": "clip-C.mp4", "trimStart": 1.25, "join": "flash", "duration": 0.4 }
+    {
+      "file": "clip-A.mp4"
+    },
+    {
+      "file": "clip-B.mp4",
+      "trimEnd": 2.44,
+      "join": "concat"
+    },
+    {
+      "file": "clip-B.mp4",
+      "trimStart": 2.46,
+      "trimEnd": 6.44,
+      "join": "xfade",
+      "duration": 0.35
+    },
+    {
+      "file": "clip-B.mp4",
+      "trimStart": 6.46,
+      "join": "xfade",
+      "duration": 0.35
+    },
+    {
+      "file": "clip-C.mp4",
+      "trimStart": 0.34,
+      "trimEnd": 3.9,
+      "join": "xfade",
+      "duration": 0.4
+    },
+    {
+      "file": "clip-C.mp4",
+      "trimStart": 3.92,
+      "join": "xfade",
+      "duration": 0.35
+    },
+    {
+      "file": "clip-D.mp4",
+      "trimStart": 0.1,
+      "join": "xfade",
+      "duration": 0.4
+    }
   ],
-  "notes": "clip-C : coupe du modèle à 0,5 s (saut de la cour vers un autre seuil). Réparation : début de C à 1,25 s + éclat de lumière de 0,4 s au passage de la porte arrière."
+  "notes": "Seedance a inséré des coupes à chaque changement de lieu (B : 2,46 s et 6,46 s ; C : 0,33 s et 3,92 s ; D : 0,08 s). Réparation : découpe sur les plans propres et fondus de 0,35 à 0,4 s, sans régénération."
 }

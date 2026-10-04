@@ -1,0 +1,50 @@
+{
+  "chef-portrait": {
+    "job": "d5a98e0c-8f66-4988-b8c4-37b0dd2cd088"
+  },
+  "origine-ouest": {
+    "job": "e0b098a0-5dc1-4b8a-9275-dc01a9b17266"
+  },
+  "samoussas": {
+    "job": "078e2f49-ed92-4230-a77b-a944a17327d6"
+  },
+  "origine-centrale": {
+    "job": "09fe906b-87e5-45da-b41e-f65de68de228"
+  },
+  "chef-geste": {
+    "job": "59ced0fb-b766-43fc-a85a-7a88310f5de1"
+  },
+  "origine-est": {
+    "job": "8318fba2-a183-4775-8abb-649f5d9dd854"
+  },
+  "origine-nord": {
+    "job": "1f1a4e20-95c2-471f-b4a6-cfcaa054352d"
+  },
+  "origine-australe": {
+    "job": "4b6c2497-2d94-4400-8fec-30dc22782d31"
+  },
+  "experience-musique": {
+    "job": "2b6aa5cc-0b2c-42ca-9535-0a92a4fcf351"
+  },
+  "experience-decor": {
+    "job": "d1818528-88ca-432d-9a9b-83ef6055007a"
+  },
+  "evenement-diner": {
+    "job": "7805c0a8-f1c5-49e8-854d-7f195f238722"
+  },
+  "evenement-terrasse": {
+    "job": "87194c76-5014-42c8-8630-dd99b1862356"
+  },
+  "ch-ingredients": {
+    "job": "ce3f959c-1775-415c-87c9-57cd7cc2a26c"
+  },
+  "ch-dressage": {
+    "job": "a671327b-c170-462a-a9df-e38b5e868b1c"
+  },
+  "ch-plat": {
+    "job": "a4ac781d-c502-44b7-8cd9-5d426d29c7d3"
+  },
+  "ch-service": {
+    "job": "7ed90ff5-ac23-4805-b981-296e7fca86df"
+  }
+}

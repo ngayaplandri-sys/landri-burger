@@ -1,4 +1,4 @@
-/* Landri Burger - le vol : scène épinglée + canvas piloté par le défilement natif.
+/* LANDRI - le vol : scène épinglée + canvas piloté par le défilement natif.
  *
  * Timeline par morceaux : chaque beat de content.js associe sa propre distance de défilement (vh)
  * à sa propre plage de temps du film maître (from -> to, en secondes). from = to : plan fixe.

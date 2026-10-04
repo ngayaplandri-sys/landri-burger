@@ -1,77 +1,67 @@
-# Landri Burger : note de production
+# LANDRI, African Fine Dining : note de production
 
-## Direction retenue
-- **Façade A, heure dorée** : pavillon vitré cadré de bronze sous un toit rouge laqué en vague, brique terre cuite, collines de Yaoundé. Options B (heure bleue) et C (tropical, Ndop) conservées dans `stills/`.
-- **Logo** : pain de burger avec l'étoile du Cameroun, mot-symbole LANDRI / BURGER (Bricolage Grotesque 800, contours vectorisés). Pistes de départ générées par Higgsfield dans `logos/`.
-- **Palette** : encre #0E0A09, crème #F4EADB, rouge laqué #A8201A (marque), safran #F2B01E (accent unique). Thème sombre.
-- **Typographies** : Bricolage Grotesque (titres), Hanken Grotesk (texte), auto-hébergées.
+## Transformation
+L'ancien concept (burgers haut de gamme) a été entièrement remplacé : vidéo, images, logo, nom, palette, typographies, textes, carte et sections. L'architecture technique est conservée telle quelle : moteur de défilement, timeline par étapes, chapitres HTML, version fixe, responsive, formulaire et scripts.
 
-## Parcours du vol (film maître de 43,4 s, 868 images à 20 i/s)
-| Secondes | Étape |
-|---|---|
-| 0 à 5 | Parvis, arc autour du serveur, entrée par les portes vitrées |
-| 5 à 12,5 | La salle : comptoir en lattes, tables, baies sur les collines |
-| 12,5 à 16,3 | La porte de cuisine s'ouvre, traversée |
-| 16,3 à 25 | Cuisine : plancha en flammes, steaks écrasés, dressage des burgers |
-| 25 à 29,5 | Garde-manger, allée d'étagères, porte arrière ouverte sur la cour |
-| 29,5 à 31,9 | Éclat de soleil, sortie dans la cour de service |
-| 31,9 à 34,2 | Demi-tour de 180° |
-| 34,2 à 43,4 | Recul en montée : toit rouge, parking, boulevard aux taxis jaunes, collines |
+## Direction
+- **Nom** : LANDRI, signature « African Fine Dining ».
+- **Logo** : losange ajouré et graine géométrique, inspirés des textiles d'Afrique centrale ; LANDRI en Cormorant Garamond 600, signature en Hanken Grotesk.
+- **Palette** : noir profond #0D0B09, chocolat #3B2418, terre cuite #B4532A, ivoire #F2EBDD, sable #D8C7A8, bronze #A97C50, vert profond #1E3A2C, or discret #C9A35B (accent unique).
+- **Langues** : français par défaut, anglais via le bouton FR / EN ou `?lang=en`.
+- **Bible visuelle** : `BIBLE-VISUELLE.md` ; bloc commun utilisé dans les prompts : `bible-block.txt`.
 
-Défilement : 975 hauteurs d'écran au total. Plan fixe de 0,55 écran à l'ouverture et de 0,75 écran à la fin ; 1,65 à 1,70 écran pour la salle et la cuisine ; une étape courte dédiée au demi-tour (0,45 écran). Détail dans `assets/js/content.js` (`flight.beats`).
+## La visite (film maître de 57,6 s, 1 152 images à 20 i/s)
+| Secondes | Scène | Chapitre |
+|---|---|---|
+| 0 à 5,5 | Arrivée : personnel et invités, portes en bois sculpté | Entrez à la grande table de l'Afrique |
+| 5,5 à 12 | La salle : art africain contemporain, raphia, tables dressées | Bois sculpté, terre cuite, lumière d'ambre |
+| 12 à 17,2 | Vers la cuisine ouverte | (pas de texte) |
+| 17,2 à 24,6 | Assaisonnement, grill : poisson et poulet dans les flammes | En cuisine, chaque geste compte |
+| 24,6 à 29,2 | Gros plans : plantain, patate douce, gingembre, épices, poisson, crevettes | Tout commence par le produit |
+| 29,2 à 32,3 | Le chef à la passe | (pas de texte) |
+| 32,3 à 37,8 | Dressage du ndolé en très gros plan | Le dressage, comme une signature |
+| 37,8 à 43 | Le plat terminé, orbite lente | Le ndolé aux crevettes, réinventé |
+| 43 à 51,5 | Le serveur porte le plat, service à table | Servi comme on reçoit en famille |
+| 51,5 à 57,6 | Dégustation, recul sur la salle | Le goût de l'Afrique, réinventé |
 
-## Jobs Higgsfield
-
-### Compte gratuit, images de recherche : 10 → 7,96 crédits
-Soul Cinema (≈ 0,12 crédit l'unité) et Z Image (0,15). Liste complète ci-dessous.
-| Fichier | Job |
-|---|---|
-| stills/01-start-A-goldenhour.png | ed26df66-f4b9-4783-89da-49aa1a32a478 |
-| stills/01-start-B-bluehour.png | b897e284-9d3f-4bc7-8ba3-242130e71981 |
-| stills/01-start-C-tropical.png | 3788e721-f2ca-489b-8f61-fa38ca140939 |
-| stills/02-salle.png | e5f47958-b187-459d-8ba0-8ebd67ca010d |
-| stills/03-cuisine.png | 542c20dd-28c7-4ad0-8e33-9fe2c2a7efba |
-| stills/04-garde-manger.png | ef90f129-ed8a-433c-9776-b398afdb45b8 |
-| stills/05-reveal-aerien.png | cd3cb94d-4580-4573-9ab2-024ad368d182 |
-| stills/alt-terrasse-serveur.png | 9d2db4a7-4d24-4274-9120-8117b6514293 |
-| stills/alt-facade-verriere.png | 5372b5db-6d61-4346-8521-4916928d7d2a |
-| stills/alt-facade-vague.png | 96197eab-b66a-4b08-ac70-2d52673ef344 |
-| food/burger-signature.png | fdcf3157-91a6-429a-a347-e7ae8d378afc |
-| food/table-partage.png | f6dff0f8-625b-4096-9309-801e0d1f8d9a |
-| logos/logo-1-bun-star.png | de4ca536-15a6-452f-b1f2-94c136899ce8 |
-| logos/logo-2-roundel.png | dcbe579d-6ab8-4191-9631-86c90da3bd5f |
-| logos/logo-3-soleil.png | 3c77980d-6022-4fcc-8f9f-625f301ddd3a |
-
-### Compte Plus (via l'outil en ligne de commande Higgsfield) : 1 010 → 689,5 crédits
-| Élément | Modèle | Job | Coût réel |
+## Vidéos (Seedance 2.5, 15 s, 720p, sans son ; compte Plus via la CLI Higgsfield)
+| Segment | Job | Mode | Statut |
 |---|---|---|---|
-| Façade A corrigée (baskets et emblème retirés) : `stills/01-start-A-fixed.png` | GPT Image 2.5, high, 2k | 6769309d-cc5c-4c54-af62-0f58a2606433 | 2,75 |
-| Image de référence aérienne : `stills/06-reveal-reference.png` | GPT Image 2.5, high, 2k | c92a81b2-a9db-4bac-98dc-f3154b0a1b07 | 2,75 |
-| Segment A (image de départ, entrée, salle) : `video/clip-A.mp4` | Seedance 2.5, omni_reference, 15 s, 720p | 72517de9-719f-4bff-9478-f886cbf6b719 | 105 |
-| Segment B (prolongation : cuisine, garde-manger) : `video/clip-B.mp4` | Seedance 2.5, video_extension forward, 15 s, 720p | 11bf7e9e-1520-4c2f-a309-afcad46abf6b | 105 |
-| Segment C (prolongation + référence aérienne : sortie, demi-tour, montée) : `video/clip-C.mp4` | Seedance 2.5, video_extension forward, 15 s, 720p | 2eb1f284-f015-439f-a1c6-1d5041ec985b | 105 |
-| **Total** | | | **320,5** |
+| A : arrivée, salle | 922333f4-bf5c-4f4b-a513-115f79a287de | omni_reference, image de départ `stills/start-2-1920.jpg` | utilisé en entier |
+| B v1 : cuisine | 4aaa3821-d549-481c-bb3b-23d63cbbd1a6 | video_extension de A | écarté (3 coupes, papaye sur planche plastique) ; conservé : `video/clip-B-v1-coupes.mp4` |
+| B v2 : cuisine, ingrédients | 14eddc78-e239-4314-9846-33157dffad60 | video_extension de A | utilisé, coupes à 2,46 s et 6,46 s réparées |
+| C : passe, dressage, plat | e136d405-aad6-41f7-8c98-42d9af280629 | video_extension de B v2 | utilisé, coupes à 0,33 s et 3,92 s réparées |
+| D : service, table, salle | 9f2bedcb-dfa8-4100-8d88-7a0de9eccee1 | video_extension de C | utilisé, coupe à 0,08 s réparée |
 
-Les prolongations ont coûté exactement le montant annoncé (105), sans surcoût.
-Prompts exacts : `prompts/` (jamais le mot « drone » ; caméra décrite comme « flying », aucun objet volant visible).
+Prompts exacts : `prompts/clip-A.txt` à `clip-D.txt` (jamais le mot « drone »).
 
-## Contrôles et réparations
-- Planches contact à 1 image par seconde et détection de coupes (`select='gt(scene,0.3)'`) sur chaque segment et sur le film maître : `review/`.
-- Raccord A → B : dernière et première images quasi identiques, concaténation directe.
-- Raccord B → C : parfait, mais **coupe générée par le modèle à 0,5 s dans C** (saut de la cour vers un autre seuil de porte, probablement dû à l'image de référence).
-  **Réparation sans régénération** : début de C à 1,25 s et éclat de lumière blanc chaud de 0,4 s au passage de la porte arrière (`scripts/flight.config.json`, `join: "flash"`). La seule « coupe » restante détectée sur le film maître (29,71 s) est cet éclat voulu. Coût : 0 crédit.
-- Film maître : normalisation 1920×1080, 24 i/s, yuv420p ; images extraites à 20 i/s en WebP (qualité 74) : 1 280 px (33 Mo, 35 Ko en moyenne) et 800 px (20 Mo, 21 Ko en moyenne).
+**Réparations** : Seedance insère une coupe à chaque changement de lieu dans une prolongation, même quand le prompt demande « one unbroken shot ». Plutôt que de régénérer en boucle, le montage (`scripts/flight.config.json`) découpe les plans propres et les relie par des fondus de 0,35 à 0,4 s. Le film maître ne présente ensuite plus aucune coupe franche (`select='gt(scene,0.3)'`) ; ces raccords se lisent comme des fondus enchaînés, pas comme un seul plan-séquence.
 
-## Vérifications effectuées dans le navigateur
-- Les 10 étapes du vol, au début, au milieu et à la fin : image affichée = image attendue (±1) ; au milieu de chaque étape, seul le bon chapitre est lisible ; les textes masqués sont neutralisés (inert) ; plan final tenu sur l'image 866. **30 contrôles sur 30 réussis.**
-- Aucun défilement horizontal en 1 440 px et en 375 px ; sur mobile, la séquence 800 px est chargée.
-- Mode sans animation (`?fixe`) : cinq chapitres pleine hauteur sur leurs images.
-- Formulaire : erreurs affichées sous les champs, focus sur le premier champ en erreur, message « Mode démonstration : aucune demande n'a été envoyée » tant que WhatsApp n'est pas configuré.
+## Images (Soul Cinema 2k, 0,12 crédit l'unité ; journaux des jobs dans `*/_jobs.json`)
+- `stills/` : 3 propositions d'arrivée (la n° 2 est retenue comme première image) et les images de la salle, de la cuisine et de l'ambiance.
+- `menu/` : 35 photos de plats ; `menu-crop/` : les mêmes recadrées automatiquement sur l'assiette.
+- `sections/` : portrait et geste du chef, 5 régions d'Afrique, musique et décor, 2 événements, gros plans des chapitres (ingrédients, dressage, plat, service), samoussas.
+- Lots : `jobs/01-reperes.json`, `02-carte.json`, `03-sections.json`.
+- Les sources sont en JPEG qualité 92 (converties depuis les PNG d'origine pour alléger le dépôt).
+
+## Crédits Higgsfield (compte Plus)
+689,5 → 157,42 crédits, soit **532 crédits** : 5 vidéos de 15 s × 105 = 525 (dont 105 pour le B écarté) et environ 7 crédits d'images.
+Rappel de l'identité précédente (burgers) : 320,5 crédits sur ce compte, plus environ 2 crédits sur l'ancien compte gratuit.
+
+## Vérifications effectuées
+- 36 contrôles automatiques sur 36 : pour chacune des 12 étapes (début, milieu, fin), bonne image du film, seul le bon chapitre lisible, textes masqués inactifs.
+- 115 fichiers référencés vérifiés : aucun manquant.
+- Aucun défilement horizontal en 1 440 px ni en 375 px ; le mobile charge la séquence 800 px.
+- Bilingue : bascule FR / EN de tous les textes, choix mémorisé, valeurs du formulaire conservées.
+- Carte : onglets au clavier, fiche plat accessible (dialogue natif, focus rendu au bouton), galerie agrandie.
+- Formulaire : erreurs sous les champs, message de démonstration explicite.
 
 ## Limites connues
-- **Vidéo en 720p** (choix budgétaire validé) : images un peu douces sur très grand écran.
-- **Écussons illisibles** sur les tabliers de la cuisine, et un bref plan d'âtre en flammes vers 16 s, avant la plancha.
-- **Raccord réparé** par l'éclat de lumière : un œil attentif voit que la cour change légèrement après l'éclat.
-- **Toit** : sa forme vue du ciel est plus arrondie que la vague de la façade de départ, même si la couleur et les matériaux sont cohérents.
-- **Fluidité** : le défilement n'a pas été testé à la main sur de vrais téléphones. L'aperçu intégré était masqué pendant une partie des tests, ce qui ralentit l'animation ; les contrôles ont donc été faits de façon automatisée.
-- **Contenus fictifs** : adresse, horaires, téléphone, prix et WhatsApp sont des éléments de démonstration à remplacer. Aucun avis client, prix ni chiffre de fréquentation n'a été inventé.
+- Vidéo en 720p.
+- La visite est une suite de plans continus reliés par des fondus courts, et non un plan-séquence parfait (voir Réparations).
+- La salle vue au service (segment D : arches, portrait coloré) diffère un peu de celle de l'arrivée (segment A : panneaux de bois), même si les matières et l'ambiance concordent.
+- Le comptoir des ingrédients montre aussi des pommes de terre et une papaye.
+- Les menus et photos de boissons montrent parfois une assiette à côté du verre.
+- Le chef est un personnage généré : remplacez son portrait, son nom et son parcours par les vrais avant publication.
+- Adresse, horaires, téléphone, prix et WhatsApp sont des éléments de démonstration. Aucun avis, prix ni distinction n'a été inventé.
+- L'aperçu intégré était masqué pendant les tests : les contrôles ont été faits de façon automatisée, et la fluidité au doigt sur un vrai téléphone reste à tester.

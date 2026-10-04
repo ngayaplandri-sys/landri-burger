@@ -1,4 +1,4 @@
-// Converts the Higgsfield source renders in production/ into web-ready WebP files in assets/img/.
+// Convertit les rendus Higgsfield de production/ en WebP pour le web (assets/img/).
 // Run: npm run images
 import sharp from "sharp";
 import fs from "node:fs";
@@ -6,43 +6,54 @@ import path from "node:path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT = path.join(ROOT, "assets", "img");
+// Sources en .jpg (ou .png pour une nouvelle génération pas encore convertie)
+const P = (f) => {
+  const p = path.join(ROOT, "production", f);
+  if (fs.existsSync(p)) return p;
+  return p.endsWith(".png") ? p.replace(/\.png$/, ".jpg") : p.replace(/\.jpg$/, ".png");
+};
 
-// [source, output name, widths[], quality]
+// [source, nom de sortie, largeurs, qualité]
 const JOBS = [
-  // Flight stills (used by the provisional still-frame flight and the reduced-motion fallback)
-  ["production/stills/01-start-A-fixed-1920.png", "flight/01-exterieur", [2048, 1280], 78],
-  ["production/stills/02-salle.png", "flight/02-salle", [2048, 1280], 78],
-  ["production/stills/03-cuisine.png", "flight/03-cuisine", [2048, 1280], 78],
-  ["production/stills/04-garde-manger.png", "flight/04-garde-manger", [2048, 1280], 78],
-  ["production/stills/05-reveal-aerien.png", "flight/05-aerien", [2048, 1280], 78],
-  ["production/stills/06-reveal-reference.png", "flight/06-aerien-arriere", [2048, 1280], 78],
-  // Content photography
-  ["production/food/burger-signature.png", "burger-signature", [1200, 720], 80],
-  ["production/food/table-partage.png", "table-partage", [1200, 720], 80],
-  ["production/stills/alt-terrasse-serveur.png", "terrasse", [1600, 960], 78],
-  ["production/stills/alt-facade-vague.png", "facade-soir", [1600, 960], 78],
-  // Start-still options (style tile only)
-  ["production/stills/01-start-B-bluehour.png", "options/start-B", [960], 72],
-  ["production/stills/01-start-C-tropical.png", "options/start-C", [960], 72],
-  ["production/stills/01-start-A-fixed.png", "options/start-A", [960], 72],
+  // Images des chapitres du vol (mode fixe et vol de secours) + galerie
+  ["stills/start-2-1920.png", "flight/arrivee", [2048, 1280], 78],
+  ["stills/ch-salle.png", "flight/salle", [2048, 1280], 78],
+  ["stills/ch-cuisine.png", "flight/cuisine", [2048, 1280], 78],
+  ["sections/ch-ingredients.png", "flight/ingredients", [2048, 1280], 78],
+  ["sections/ch-dressage.png", "flight/dressage", [2048, 1280], 78],
+  ["sections/ch-plat.png", "flight/plat", [2048, 1280], 78],
+  ["sections/ch-service.png", "flight/service", [2048, 1280], 78],
+  ["stills/ch-ambiance.png", "flight/ambiance", [2048, 1280], 78],
+  // Sections
+  ["sections/chef-portrait.png", "sections/chef-portrait", [1200, 720], 80],
+  ["sections/chef-geste.png", "sections/chef-geste", [1600, 960], 80],
+  ["sections/origine-centrale.png", "sections/origine-centrale", [1200, 720], 80],
+  ["sections/origine-ouest.png", "sections/origine-ouest", [1200, 720], 80],
+  ["sections/origine-est.png", "sections/origine-est", [1200, 720], 80],
+  ["sections/origine-nord.png", "sections/origine-nord", [1200, 720], 80],
+  ["sections/origine-australe.png", "sections/origine-australe", [1200, 720], 80],
+  ["sections/experience-musique.png", "sections/experience-musique", [1600, 960], 80],
+  ["sections/experience-decor.png", "sections/experience-decor", [1600, 960], 80],
+  ["sections/evenement-diner.png", "sections/evenement-diner", [1600, 960], 80],
+  ["sections/evenement-terrasse.png", "sections/evenement-terrasse", [1600, 960], 80],
 ];
+// Carte : photos recadrées sur l'assiette (production/menu-crop/<id>.jpg)
+for (const f of fs.readdirSync(path.join(ROOT, "production", "menu-crop")).filter((f) => /\.(png|jpg)$/.test(f))) {
+  JOBS.push([`menu-crop/${f}`, `menu/${f.replace(/\.(png|jpg)$/, "")}`, [1200, 640], 80]);
+}
 
 let total = 0;
 for (const [src, name, widths, q] of JOBS) {
-  const input = path.join(ROOT, src);
-  if (!fs.existsSync(input)) { console.warn("missing", src); continue; }
+  const input = P(src);
+  if (!fs.existsSync(input)) { console.warn("manquant :", src); continue; }
   for (const w of widths) {
     const out = path.join(OUT, `${name}-${w}.webp`);
     fs.mkdirSync(path.dirname(out), { recursive: true });
     const info = await sharp(input).resize({ width: w, withoutEnlargement: true }).webp({ quality: q, effort: 5 }).toFile(out);
     total += info.size;
-    console.log(`${path.relative(ROOT, out)}  ${info.width}x${info.height}  ${(info.size / 1024).toFixed(0)} KB`);
   }
 }
-// Poster for the flight stage (first frame), small enough to be the LCP image.
-const poster = await sharp(path.join(ROOT, "production/stills/01-start-A-fixed-1920.png"))
-  .resize({ width: 1280 }).jpeg({ quality: 74, progressive: true, mozjpeg: true })
-  .toFile(path.join(OUT, "flight/poster.jpg"));
+// Affiche du vol (remplacée par la première image du film par `npm run frames`)
+const poster = await sharp(P("stills/start-2-1920.png")).resize({ width: 1280 }).jpeg({ quality: 76, progressive: true, mozjpeg: true }).toFile(path.join(OUT, "flight/poster.jpg"));
 total += poster.size;
-console.log(`assets/img/flight/poster.jpg  ${(poster.size / 1024).toFixed(0)} KB`);
-console.log(`total ${(total / 1024 / 1024).toFixed(2)} MB`);
+console.log(`${JOBS.length} images, total ${(total / 1024 / 1024).toFixed(2)} Mo`);

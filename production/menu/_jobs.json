@@ -1,0 +1,104 @@
+{
+  "salade-avocat-crevettes": {
+    "job": "256f85c2-5f11-4e8c-a86c-dc532bd9d9d1"
+  },
+  "accras-crevettes": {
+    "job": "f56e6b78-1101-41bb-83a4-a0fe132289c3"
+  },
+  "ndole-crevettes": {
+    "job": "ecb5a8cc-fab1-41e8-b679-9de18ddd2ba0"
+  },
+  "poulet-dg": {
+    "job": "644d2876-255a-48c7-9f56-c608dc794305"
+  },
+  "poulet-braise": {
+    "job": "0700db01-5de2-44e4-810d-49a55bc22895"
+  },
+  "poisson-braise": {
+    "job": "ee3b61b8-ae33-42bf-8885-061a1544477f"
+  },
+  "mafe": {
+    "job": "cb3004fb-8118-442a-90f0-5483d38d599e"
+  },
+  "poulet-yassa": {
+    "job": "7d712bae-a6aa-462b-ba8a-9add2920ce0b"
+  },
+  "thieboudienne": {
+    "job": "f59ace45-028e-4607-8324-2fef76ffa680"
+  },
+  "jollof-rice": {
+    "job": "cded894a-adbe-4a5d-a01f-84493c3af1ad"
+  },
+  "sauce-arachide": {
+    "job": "4e459b79-f88e-4ab7-ba33-c919646c3677"
+  },
+  "cote-de-boeuf": {
+    "job": "ef3087ec-56e6-4d19-9874-aa76f186e1f4"
+  },
+  "plantain-roti": {
+    "job": "af994625-9dd8-4f13-bc81-4620e8f3fbc9"
+  },
+  "igname": {
+    "job": "bb54a9f6-79bf-4c6b-9a6b-4236624f9310"
+  },
+  "manioc": {
+    "job": "430abe07-2fea-4656-b534-6e0285c34a42"
+  },
+  "attieke": {
+    "job": "ad010843-f7b9-48ea-892d-aeeb81f09880"
+  },
+  "riz-parfume": {
+    "job": "5c040a85-44f8-47de-b0a8-f188808496b6"
+  },
+  "patate-douce": {
+    "job": "b692db20-eb39-4959-bb56-cb7054de401d"
+  },
+  "legumes-sautes": {
+    "job": "7535f497-5d07-47bf-98fd-743ccedc1032"
+  },
+  "dessert-bissap": {
+    "job": "4f22d56a-e0c9-4a96-9b52-473ab3ceb89e"
+  },
+  "mousse-chocolat-epices": {
+    "job": "9c6d2916-68bd-4cb6-904d-6e4381daded3"
+  },
+  "mangue-fraiche": {
+    "job": "95278a9b-3be8-4664-aede-2bbf3c255657"
+  },
+  "ananas-roti": {
+    "job": "c6ae691c-1be4-44e4-b3f6-399cb0fe035e"
+  },
+  "creme-coco": {
+    "job": "6fb2e151-88bf-46d6-922f-f0ba4326c314"
+  },
+  "plantain-caramelise": {
+    "job": "5c81c4c5-73ff-4695-95ce-dbb4b597bf06"
+  },
+  "boisson-bissap": {
+    "job": "d1db6698-76e3-4976-970e-73de0131450b"
+  },
+  "boisson-baobab": {
+    "job": "6f460ce9-3977-43cd-bccf-bcd8a7e0cb1b"
+  },
+  "boisson-tamarin": {
+    "job": "0491e77c-4b63-4e50-9593-d24547c40391"
+  },
+  "jus-tropical": {
+    "job": "5456a321-58e2-4db2-8830-0189288613bf"
+  },
+  "beignets-plantain": {
+    "job": "7cf55dd5-2a50-435c-8be3-16d6e236251d"
+  },
+  "pastels": {
+    "job": "8baf9bd5-4337-477e-9a4a-af54b67754c8"
+  },
+  "boisson-gingembre": {
+    "job": "48d2499c-4951-4f24-b54c-f41f1b69597f"
+  },
+  "brochettes-crevettes": {
+    "job": "a7ff067b-b57a-498c-810a-c2ac21823c0a"
+  },
+  "cocktail-sans-alcool": {
+    "job": "005dcfac-2a2d-4d44-8d8b-f3be6b3fd814"
+  }
+}
